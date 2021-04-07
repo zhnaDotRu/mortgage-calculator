@@ -1,0 +1,97 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.19.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/nikitazhitin/Desktop/us-studio/us-studio/templates/vue/package.json: Unexpected token } in JSON at position 183
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "zhna.ru",
+    "author": "zhnaDotRu@gmail.com",
+    "private": true,
+    "scripts": {
+      "dev": "webpack-dev-server",
+      "build": "webpack --config webpack.config.prod.js",
+    },
+    "devDependencies": {
+      "@babel/core": "^7.6.2",
+      "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
+      "@babel/plugin-proposal-optional-chaining": "^7.6.0",
+      "@babel/polyfill": "^7.6.0",
+      "@babel/preset-env": "^7.6.2",
+      "@jaames/iro": "^5.2.3",
+      "axios": "^0.19.0",
+      "babel": "^6.23.0",
+      "babel-cli": "^6.26.0",
+      "babel-loader": "^8.0.6",
+      "browserslist": "^4.7.0",
+      "cross-env": "^6.0.0",
+      "css-loader": "^2.1.1",
+      "cssnano": "^4.1.10",
+      "dotenv": "^8.2.0",
+      "file-loader": "^4.2.0",
+      "html-loader": "^0.5.5",
+      "html-webpack-plugin": "^3.2.0",
+      "jsdoc": "^3.6.6",
+      "konva": "^6.0.0",
+      "mini-css-extract-plugin": "^0.8.0",
+      "monaco-editor-webpack-plugin": "^1.9.1",
+      "ngrok": "^3.3.0",
+      "node-sass": "^4.12.0",
+      "pixi-cull": "^1.0.0",
+      "pixi-plugin-bump": "^1.1.8",
+      "pixi-viewport": "^4.12.1",
+      "pixi.js": "^5.3.0",
+      "postcss": "^7.0.18",
+      "postcss-flexbugs-fixes": "^4.1.0",
+      "postcss-loader": "^3.0.0",
+      "postcss-preset-env": "^6.7.0",
+      "sass-loader": "^8.0.0",
+      "scroll-lock": "^2.1.4",
+      "style-loader": "^1.0.0",
+      "vue": "^2.6.10",
+      "vue-clipboard2": "^0.3.1",
+      "vue-custom-scrollbar": "^1.2.0",
+      "vue-gtag": "^1.11.0",
+      "vue-konva": "^2.1.3",
+      "vue-loader": "^15.7.1",
+      "vue-monaco": "^1.2.2",
+      "vue-router": "^3.3.4",
+      "vue-style-loader": "^4.1.2",
+      "vue-template-compiler": "^2.6.10",
+      "vue-the-mask": "^0.11.1",
+      "vue-yandex-metrika": "^1.8.3",
+      "vue2-perfect-scrollbar": "^1.5.0",
+      "vuex": "^3.1.1",
+      "webfontloader": "^1.6.28",
+      "webpack": "^4.41.0",
+      "webpack-cli": "^3.3.9",
+      "webpack-dev-server": "^3.8.1"
+    },
+    "dependencies": {
+      "body-scroll-lock": "^3.0.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
